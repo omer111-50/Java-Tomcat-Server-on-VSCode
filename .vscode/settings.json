@@ -1,0 +1,16 @@
+{
+  "java.project.sourcePaths": ["src/main/java"],
+  "java.project.outputPath": "build/classes",
+  "java.project.referencedLibraries": ["src/main/webapp/WEB-INF/lib/*.jar"],
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(java|jsp|xml|properties)$",
+        "cmd": "<PLATFORM_BUILD_SCRIPT>",
+        "isAsync": true
+      }
+    ],
+    "runIn": "terminal",
+    "showNotifications": true
+  }
+}
