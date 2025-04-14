@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Environment variables
-TOMCAT_DIR="/Users/oao/Downloads/apache-tomcat-9.0.67"
+TOMCAT_DIR="path/to/apache-tomcat-9.0.67"
 APP_NAME="myapp"
 
 # Remove the existing myapp directory

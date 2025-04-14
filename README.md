@@ -83,7 +83,7 @@ A simple Java web application using Tomcat with hot reload functionality.
      - macOS: `scripts/macos/build.sh`
      - Windows: `scripts/windows/build.bat`
    - Update `TOMCAT_DIR` to match your Tomcat installation path
-   - For Windows users: Use backslashes (\) in the path
+   - For Windows users: Use backslashes (`\`) in the path
 
 3. **Make Scripts Executable (macOS/Linux only)**
    ```bash
