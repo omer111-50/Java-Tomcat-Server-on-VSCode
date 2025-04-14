@@ -5,25 +5,8 @@ A simple Java web application using Tomcat with hot reload functionality.
 ## Prerequisites
 
 1. **Java Development Kit (JDK)**
-   - Download OpenJDK from: https://jdk.java.net/17/
-   - Extract the downloaded archive:
-     ```bash
-     # For .tar.gz files (macOS/Linux):
-     tar xvf openjdk-17*_bin.tar.gz
-     
-     # For .zip files (Windows):
-     unzip openjdk-17*_bin.zip
-     ```
-   - Set JAVA_HOME environment variable:
-     ```bash
-     # macOS/Linux (add to ~/.zshrc or ~/.bash_profile):
-     export JAVA_HOME=/path/to/extracted/jdk-17
-     export PATH=$JAVA_HOME/bin:$PATH
-     
-     # Windows (System Properties > Environment Variables):
-     # Add JAVA_HOME = C:\path\to\extracted\jdk-17
-     # Add %JAVA_HOME%\bin to PATH
-     ```
+   - Download OpenJDK from: https://adoptium.net/en-GB/download/
+   - Follow the installation instructions for your platform
    - Verify installation:
      ```bash
      java -version
